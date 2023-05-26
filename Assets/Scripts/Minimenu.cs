@@ -80,6 +80,10 @@ public class Minimenu : MonoBehaviour
         List<ItemData> combineList = ouritem.combinesWith;
         int items = ouritem.combinesWith.Count;
         foreach(InventorySlot selectSlot in InventorySlot.selectedSlots) {
+            if(getSelectedItem(selectSlot)== null)
+            {
+                return;
+            }
             ItemData selectedData = getSelectedItem(selectSlot).itemData;
             if(combineList.Contains(selectedData))
             {

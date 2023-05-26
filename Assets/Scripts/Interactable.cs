@@ -18,7 +18,16 @@ public class Interactable : Collidable
             Interact();
         }
     }
-
+    protected override void Start() {
+        GameObject holder = GameObject.FindWithTag("DialogueBox");
+        Transform[] trs = holder.GetComponentsInChildren<Transform>(true);
+         foreach(Transform t in trs){
+         if(t.name == "DialogueBox"){
+              DialogueBox = t.gameObject;
+         }
+         }
+         base.Start();
+    }
     protected virtual void Interact()   
     {
 

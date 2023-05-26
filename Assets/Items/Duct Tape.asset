@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Duct Tape
   m_EditorClassIdentifier: 
   displayName: Duct tape
-  inspectText: 
+  inspectText: There are few constants in this world. One is  me  never having money
+    in my bank account, the other is the stickiness of this duct tape
   combinesWith:
   - {fileID: 11400000, guid: f2ca62dfbf5fb084794fc81dff7bde05, type: 2}
   - {fileID: 11400000, guid: a4b86c9fd8b748b439d2f42586652508, type: 2}
   combinesInto: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}
   combine: 0
   inspect: 0
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: e61b796000c71e04ab07440820bcca0b, type: 3}
   inspectImage: {fileID: 0}

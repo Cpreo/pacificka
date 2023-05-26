@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6382142017043135417}
   - component: {fileID: 6382142017043135416}
   - component: {fileID: 6382142017043135419}
+  - component: {fileID: 4747936683048413580}
   m_Layer: 5
   m_Name: Hedge
   m_TagString: Untagged
@@ -93,6 +94,19 @@ MonoBehaviour:
   sheared_hedge: {fileID: -1494937921, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
   shear_item: {fileID: 11400000, guid: f2ca62dfbf5fb084794fc81dff7bde05, type: 2}
   shear: {fileID: 6382142017747720761}
+--- !u!114 &4747936683048413580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6382142017043135421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88fdf37d64783cb4ba527b75a61e4d89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finished: 0
 --- !u!1 &6382142017704537695
 GameObject:
   m_ObjectHideFlags: 0

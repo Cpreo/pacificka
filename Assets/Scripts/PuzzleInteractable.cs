@@ -9,7 +9,7 @@ public class PuzzleInteractable : Interactable
     // Start is called before the first frame update
     public Sprite finishedPortrait;
     // Update is called once per frame
-
+    bool containsItem = false;
 
     public void Interact2() {
 
@@ -23,7 +23,16 @@ public class PuzzleInteractable : Interactable
         if(Input.GetKeyDown(key)){
             if(activated == false) {
             InventoryItem invRequired = new InventoryItem(requiredItem);
-            if(!Inventory.inventory.Contains(invRequired)){
+            List<InventoryItem> toRemove = new List<InventoryItem>();
+            foreach(InventoryItem oldItem in Inventory.inventory)
+            {
+            if(requiredItem.displayName ==  oldItem.itemData.displayName)
+            {
+                containsItem = true;
+            }
+            }
+
+            if(!containsItem){
                 DisplayText(denialText);
                 return;
             }

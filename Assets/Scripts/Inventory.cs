@@ -19,6 +19,7 @@ public class Inventory : MonoBehaviour
         Chest.OnChestCollected += Add;
         Hedge_Interact.OnRecieveShear += Add;
         Pickup.OnItemCollected += Add;
+        duct_interact.OnRecieveDuct += Add;
     }
     private void OnDisable() {
 
@@ -26,6 +27,7 @@ public class Inventory : MonoBehaviour
         Chest.OnChestCollected -= Add;
         Hedge_Interact.OnRecieveShear -= Add;
         Pickup.OnItemCollected -= Add;
+        duct_interact.OnRecieveDuct -= Add;
     }
     public void Add(ItemData itemData) {
         if(itemDictionary.TryGetValue((itemData), out InventoryItem item)) {

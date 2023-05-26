@@ -12,12 +12,19 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveDirection;
     public GameObject DialogueBox;
-    public float moveSpeed = 0.6f;
+    public float moveSpeed = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
+        GameObject holder = GameObject.FindWithTag("DialogueBox");
+        Transform[] trs = holder.GetComponentsInChildren<Transform>(true);
+         foreach(Transform t in trs){
+         if(t.name == "DialogueBox"){
+              DialogueBox = t.gameObject;
+         }
+         }
         
     }
 
@@ -31,7 +38,9 @@ public class Player : MonoBehaviour
         moveDirection = new Vector2(moveX,moveY);
     }
     void Move() {
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed).normalized;
+
+        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+        Debug.Log(rb.velocity);
     }
     void Update()
     {

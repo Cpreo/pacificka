@@ -32,7 +32,9 @@ public class Hedge_Interact : MonoBehaviour
     void Update()
     {
         if(state ==1){
+            gameObject.GetComponent<Interact_Controller>().finished = true;
             if(Input.GetMouseButtonDown(0)){
+                
                 gameObject.SetActive(false);
                 
             }

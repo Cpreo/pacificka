@@ -22,5 +22,5 @@ MonoBehaviour:
   combinesInto: {fileID: 11400000, guid: 42a308f638e69e64a992d0a8255ce91c, type: 2}
   combine: 1
   inspect: 1
-  icon: {fileID: 1619090694, guid: 7d67a545b43970e4685eb15364551b58, type: 3}
+  icon: {fileID: 21300000, guid: 3dbcf2bdbde0f8d4b84659d893c12000, type: 3}
   inspectImage: {fileID: 0}

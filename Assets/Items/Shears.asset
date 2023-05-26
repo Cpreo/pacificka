@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Shears
   m_EditorClassIdentifier: 
   displayName: Shears
-  inspectText: 
+  inspectText: This razor sharp tool can cut through almost anything. As long as
+    anything is just some vines
   combinesWith: []
   combinesInto: {fileID: 0}
   combine: 0
