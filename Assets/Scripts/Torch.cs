@@ -6,12 +6,16 @@ public class Torch : Interactable
 {
     public Animator animator;
     private UnityEngine.Rendering.Universal.Light2D myLight;
+    
 
     protected override void Start()
     {
     myLight = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
     animator = GetComponent<Animator>();
     // light is initially off
+
+    // test comment
+    
     myLight.enabled = false;
     base.Start();
     }
@@ -23,6 +27,7 @@ public class Torch : Interactable
         if(activated == false) {
             animator.SetBool("Activated", false);
         }
+        
         myLight.enabled = activated;
     }
 }

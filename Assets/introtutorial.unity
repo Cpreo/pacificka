@@ -36702,7 +36702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: FlavorText
-      value: The torch is brought to life!
+      value: I am a torch! Thank you for bringing me to life! Find the other torches!
       objectReference: {fileID: 0}
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: denialText
@@ -36711,7 +36711,7 @@ PrefabInstance:
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: DialogueBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1634810571}
     - target: {fileID: 3999646110438391371, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: m_FalloffIntensity
       value: 0.566
@@ -36884,13 +36884,12 @@ MonoBehaviour:
   FlavorText: "\u201CWith the firelight you can finally see what\u2019s on the photo
     on the ground. It\u2019s a man with his wife and daughter. The writing on the
     back says \u201CEach day without you is unbearable, my dear Evgenia. You left
-    this world far too soon.\u201D\u201D END OF DEMO"
+    this world far too soon.\u201D\u201D"
   denialText: The painting frame is empty, and it's too dark to see anything worthwile
     in the frame.
-  requiredItem: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
+  requiredItem: Finished Portrait
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
   puzzleBeaten: 0
   finishedPortrait: {fileID: 21300000, guid: 39673b8153788cb4ca9099a4918a4165, type: 3}
 --- !u!114 &356021783
@@ -36923,11 +36922,11 @@ GameObject:
   - component: {fileID: 444462659}
   m_Layer: 0
   m_Name: Inventory
-  m_TagString: Inventory
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &444462658
 Transform:
   m_ObjectHideFlags: 0
@@ -37021,7 +37020,7 @@ PrefabInstance:
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: DialogueBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1634810571}
     - target: {fileID: 3999646110438391371, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: m_Intensity
       value: 1.73
@@ -37511,7 +37510,7 @@ PrefabInstance:
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: DialogueBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1634810571}
     - target: {fileID: 3999646110438391371, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: m_Intensity
       value: 1.39
@@ -37720,33 +37719,17 @@ PrefabInstance:
       propertyPath: item
       value: Portrait Piece 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1031760157540789266, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4361
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4361
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.4361
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3649
+      value: 1.7957934
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1929
+      value: -0.52190644
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37786,45 +37769,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
---- !u!1 &881173247 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3908070178120084414, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-  m_PrefabInstance: {fileID: 881173246}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &881173248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 881173247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926350aa1fa1c5c4980489b74de447b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  boxCollider: {fileID: 881173250}
-  item: 
-  portraitData: {fileID: 11400000, guid: 031c097270c54ad45ad062af63361fad, type: 2}
---- !u!61 &881173250 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 6775764217795491911, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-  m_PrefabInstance: {fileID: 881173246}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &976376875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1766189153740142601, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
@@ -38101,7 +38045,7 @@ PrefabInstance:
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: DialogueBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1634810571}
     - target: {fileID: 3999646110438391371, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: m_ShadowIntensity
       value: 0.556
@@ -38618,7 +38562,7 @@ PrefabInstance:
     - target: {fileID: 3999646110438391369, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: DialogueBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1634810571}
     - target: {fileID: 3999646110438391371, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
       propertyPath: m_Intensity
       value: 1.73
@@ -38657,7 +38601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1377630734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38768,33 +38712,17 @@ PrefabInstance:
       propertyPath: item
       value: Portrait Piece 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1031760157540789266, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.582
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.582
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.582
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5296
+      value: 0.483
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.176
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38838,40 +38766,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
---- !u!1 &1525752447 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3908070178120084414, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-  m_PrefabInstance: {fileID: 1525752446}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1525752448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525752447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926350aa1fa1c5c4980489b74de447b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  boxCollider: {fileID: 0}
-  item: 
-  portraitData: {fileID: 11400000, guid: bf55a2a764b7cac42a2cf9c87930ca7b, type: 2}
 --- !u!1 &1558785486
 GameObject:
   m_ObjectHideFlags: 0
@@ -38899,10 +38793,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4cc94e9a324ed794aa6e82c7b1a5ffa4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5771ad0f5e907c94ab88a1837f8b713c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.517
-  m_Pitch: 0.64
+  m_Volume: 1
+  m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -39029,7 +38923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_AnchorMin.x
@@ -39037,15 +38931,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39077,11 +38971,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 133
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5891340680774530585, guid: 249abe597c61f5f4dafd34aeea493e40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39247,10 +39141,9 @@ MonoBehaviour:
   FlavorText: With a match in hand, you can make your way more easilly around the
     manor
   denialText: crates stack high and surround you.  You could use a light
-  requiredItem: {fileID: 0}
+  requiredItem: Match
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
 --- !u!61 &1813561141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39415,24 +39308,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3861
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4333662
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3861
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.7999
+      value: 1.234
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2388
+      value: -0.618
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39470,20 +39351,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portrait Piece (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1031760157540789266, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
 --- !u!1 &1979786621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3908070178120084414, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
   m_PrefabInstance: {fileID: 1979786620}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &1979786624 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 6775764217795491911, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-  m_PrefabInstance: {fileID: 1979786620}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1979786625
+--- !u!114 &1979786622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39492,7 +39367,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1979786621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde4ab287eae47d4380f252a05bbaf69, type: 3}
+  m_Script: {fileID: 11500000, guid: 926350aa1fa1c5c4980489b74de447b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   filter:
@@ -39510,8 +39385,13 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   boxCollider: {fileID: 1979786624}
-  item: Portrait Piece 1
-  item_data: {fileID: 11400000, guid: ed24153800aeca0448e23c2cb7580a31, type: 2}
+  item: asdasd
+  portraitData: {fileID: 11400000, guid: ed24153800aeca0448e23c2cb7580a31, type: 2}
+--- !u!61 &1979786624 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6775764217795491911, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
+  m_PrefabInstance: {fileID: 1979786620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1989509788
 GameObject:
   m_ObjectHideFlags: 0
@@ -39528,7 +39408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1989509789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39692,10 +39572,9 @@ MonoBehaviour:
   FlavorText: Fitting the painting into the lock, door opens. You beat the test level
   denialText: '"The door swung shut behind me the moment I came in. It''s locked
     fast. There seems to be a square shaped hole in it"'
-  requiredItem: {fileID: 0}
+  requiredItem: Finished Painting
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
 --- !u!61 &1997858906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39855,10 +39734,9 @@ MonoBehaviour:
   FlavorText: 
   denialText: '" All this to find a dead woman?  Is it just me, or is the air getting
     wetter? '
-  requiredItem: {fileID: 0}
+  requiredItem: 
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
 --- !u!61 &2008109328
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40003,10 +39881,9 @@ MonoBehaviour:
   FlavorText: '"You can finally get out of here with the finished portrait in hand"'
   denialText: '"The crates stink with the salty smell of the tide. Something resembling
     fingernail scratches can be seen on them.'
-  requiredItem: {fileID: 0}
+  requiredItem: Finished Painting
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
 --- !u!61 &2061788600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40136,10 +40013,9 @@ MonoBehaviour:
   FlavorText: 
   denialText: The winding nature of the manor is confusing. Is this worth the scoop?
     I barely have any money left.
-  requiredItem: {fileID: 0}
+  requiredItem: 
   turnOff: 0
   key: 101
-  activatedImage: {fileID: 0}
 --- !u!61 &2100382296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40250,7 +40126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2126944365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40334,7 +40210,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.01
+  m_Intensity: 0.86
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000dfde1273f7755bd1adf25eb6
@@ -40421,21 +40297,13 @@ PrefabInstance:
       propertyPath: item
       value: Portrait Piece 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1031760157540789266, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9809
-      objectReference: {fileID: 0}
-    - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2975
+      value: -1.299
       objectReference: {fileID: 0}
     - target: {fileID: 2391493783984879505, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40479,40 +40347,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
---- !u!1 &2057116808765684008 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3908070178120084414, guid: 8cceb7d8397f957449866723c13df55a, type: 3}
-  m_PrefabInstance: {fileID: 2057116808765684007}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2057116808765684009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057116808765684008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926350aa1fa1c5c4980489b74de447b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  boxCollider: {fileID: 0}
-  item: 
-  portraitData: {fileID: 11400000, guid: 973ac776987895c4a8fdb4fdeea8271a, type: 2}
 --- !u!1001 &5949860800109274548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40682,17 +40516,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6741787417152266274, guid: 8ce4ea20b7d2a1641a951c46d17d759b, type: 3}
-      propertyPath: key
-      value: 101
-      objectReference: {fileID: 0}
-    - target: {fileID: 6741787417152266274, guid: 8ce4ea20b7d2a1641a951c46d17d759b, type: 3}
       propertyPath: item
       value: Match
       objectReference: {fileID: 0}
-    - target: {fileID: 6741787417152266274, guid: 8ce4ea20b7d2a1641a951c46d17d759b, type: 3}
-      propertyPath: chest_data
-      value: 
-      objectReference: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
     - target: {fileID: 6741787417152266274, guid: 8ce4ea20b7d2a1641a951c46d17d759b, type: 3}
       propertyPath: pesosAmount
       value: 50
