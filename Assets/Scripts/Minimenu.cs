@@ -53,7 +53,6 @@ public class Minimenu : MonoBehaviour
         
         int index = invManager.inventorySlots.IndexOf(selected);
         if(index >= Inventory.inventory.Count){
-            Debug.Log("We empty");
             return;
         }
         DisplayText(Inventory.inventory[index].inspectText);
@@ -66,10 +65,7 @@ public class Minimenu : MonoBehaviour
         InventoryManager invManager =slot.GetComponentInParent<InventoryManager>();
         
         int index = invManager.inventorySlots.IndexOf(ourSlot);
-        Debug.Log(index);
-        Debug.Log(Inventory.inventory.Count);
         if(index >= Inventory.inventory.Count || index == -1){
-            Debug.Log("We empty");
             return null;
         }
         return Inventory.inventory[index];

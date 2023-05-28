@@ -40,7 +40,6 @@ public class Player : MonoBehaviour
     void Move() {
 
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-        Debug.Log(rb.velocity);
     }
     void Update()
     {

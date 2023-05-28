@@ -207,8 +207,9 @@ Transform:
   - {fileID: 1859546030}
   - {fileID: 294070363}
   - {fileID: 1922274246}
+  - {fileID: 2101701607}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &140058237
 GameObject:
@@ -608,6 +609,7 @@ MonoBehaviour:
   denialText: My car broke down, I'm in the middle of nowhere, what a great start
     to the night
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
@@ -2621,6 +2623,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 0}
   item: Handyman's Guide
+  soundEffect: {fileID: 0}
   item_data: {fileID: 11400000, guid: df3750e104e57a34cb6a517b2caad2f7, type: 2}
 --- !u!61 &766324516
 BoxCollider2D:
@@ -2713,7 +2716,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &775758352
 GameObject:
@@ -2766,6 +2769,7 @@ MonoBehaviour:
   FlavorText: 
   denialText: 
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
@@ -2863,7 +2867,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &782519089
 GameObject:
@@ -3034,6 +3038,7 @@ MonoBehaviour:
   FlavorText: 
   denialText: The crates smell with the stench of the tide
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
@@ -3305,6 +3310,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 1106051654}
   item: Shear Handle
+  soundEffect: {fileID: 0}
   item_data: {fileID: 11400000, guid: a4b86c9fd8b748b439d2f42586652508, type: 2}
 --- !u!61 &1106051654
 BoxCollider2D:
@@ -3632,7 +3638,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.1
+  m_Intensity: 0.05
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000dfde1273f7755bd1adf25eb6
@@ -35566,6 +35572,7 @@ MonoBehaviour:
   FlavorText: 
   denialText: Rust red gates block the way
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
@@ -36009,6 +36016,7 @@ MonoBehaviour:
   FlavorText: The shears cut through the vines
   denialText: The vines block the door from opening, if only I had something sharp
   requiredItem: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: -1238509419, guid: 7d67a545b43970e4685eb15364551b58, type: 3}
@@ -36137,6 +36145,7 @@ MonoBehaviour:
   FlavorText: The shears cut through the vines
   denialText: The vines block the door from opening, if only I had something sharp
   requiredItem: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: -1238509419, guid: 7d67a545b43970e4685eb15364551b58, type: 3}
@@ -36397,6 +36406,7 @@ MonoBehaviour:
   FlavorText: Looks like something is in there.
   denialText: 
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
@@ -37724,16 +37734,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 19, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 24, y: 6, z: 0}
     second:
       serializedVersion: 2
@@ -37749,16 +37749,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 2
       m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 19, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -37952,7 +37942,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 697858fd1e62bc04987473035f1a300b, type: 2}
   - m_RefCount: 99
     m_Data: {fileID: 11400000, guid: e556a1e3c3e78d24f8f4aed488aa66c9, type: 2}
-  - m_RefCount: 22
+  - m_RefCount: 20
     m_Data: {fileID: 11400000, guid: 84ae22d720d53e448b3aa2982e2b37bd, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
@@ -37961,10 +37951,10 @@ Tilemap:
     m_Data: {fileID: 1902967738, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
   - m_RefCount: 99
     m_Data: {fileID: 1842036044, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
-  - m_RefCount: 22
+  - m_RefCount: 20
     m_Data: {fileID: -1905045206, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 123
+  - m_RefCount: 121
     m_Data:
       e00: 1
       e01: 0
@@ -37983,7 +37973,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 123
+  - m_RefCount: 121
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -38043,7 +38033,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.81
   m_Color: {r: 1, g: 0.7820658, b: 0, a: 1}
-  m_Intensity: 0.17
+  m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000dfde1273f7755bd1adf25eb6
@@ -38112,12 +38102,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101701605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.246, y: -0.06299999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.614285, y: 0.5107775, z: 0}
+  m_LocalScale: {x: 2.8571427, y: 3.4051828, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 86238452}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2108748985
 GameObject:
@@ -38170,6 +38160,7 @@ MonoBehaviour:
   FlavorText: 
   denialText: A town appearing in the middle of nowhere, something has to be up
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}

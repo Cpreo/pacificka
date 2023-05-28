@@ -20,6 +20,7 @@ public class Interactable : Collidable
         }
     }
     protected override void Start() {
+        boxCollider = GetComponent<BoxCollider2D>();
         GameObject holder = GameObject.FindWithTag("DialogueBox");
         Transform[] trs = holder.GetComponentsInChildren<Transform>(true);
          foreach(Transform t in trs){
@@ -57,7 +58,10 @@ public class Interactable : Collidable
             }
             DisplayText(FlavorText);
             if(activatedImage != null) {
-                soundEffect.Play();
+                if(soundEffect != null)
+                    {
+                    soundEffect.Play();
+                    }
                 GetComponent<SpriteRenderer>().sprite = activatedImage;
             }
             activated = true;

@@ -24,7 +24,10 @@ public class Collectable : Collidable
     {
         
         if(item.Length > 0 && collected == false) {
+                    if(soundEffect != null)
+                    {
                     soundEffect.Play();
+                    }
                     GameManager.instance.ShowText("You picked up a " +item + "!",25,Color.red,transform.position, Vector3.up *50,3f);
                     GameManager.instance.Inventory.Add(item);
                     item = "";
