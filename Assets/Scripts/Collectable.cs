@@ -7,6 +7,7 @@ public class Collectable : Collidable
  //Logic
     protected bool collected;
     public string item;
+    public AudioSource soundEffect;
     
     protected override void Start() {
         base.Start();
@@ -23,6 +24,7 @@ public class Collectable : Collidable
     {
         
         if(item.Length > 0 && collected == false) {
+                    soundEffect.Play();
                     GameManager.instance.ShowText("You picked up a " +item + "!",25,Color.red,transform.position, Vector3.up *50,3f);
                     GameManager.instance.Inventory.Add(item);
                     item = "";
