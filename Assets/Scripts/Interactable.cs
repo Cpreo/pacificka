@@ -20,6 +20,7 @@ public class Interactable : Collidable
         }
     }
     protected override void Start() {
+        soundEffect = GetComponent<AudioSource>();
         boxCollider = GetComponent<BoxCollider2D>();
         GameObject holder = GameObject.FindWithTag("DialogueBox");
         Transform[] trs = holder.GetComponentsInChildren<Transform>(true);

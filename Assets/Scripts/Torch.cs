@@ -23,6 +23,10 @@ public class Torch : Interactable
         base.Interact();
         if(activated == true) {
             animator.SetBool("Activated", true);
+            if(soundEffect != null)
+                    {
+                    soundEffect.Play();
+                    }
         }
         if(activated == false) {
             animator.SetBool("Activated", false);
