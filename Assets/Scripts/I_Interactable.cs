@@ -17,7 +17,7 @@ public class I_Interactable : Interactable
         
         if(!activated) {
 
-             if(Input.GetKeyDown(key)){
+             if(Input.GetKeyDown(key) && displaying == false){
                 
              slideshow = Instantiate(interactImagePrefab);
              displaying = true;

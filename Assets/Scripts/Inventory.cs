@@ -20,6 +20,8 @@ public class Inventory : MonoBehaviour
         Hedge_Interact.OnRecieveShear += Add;
         Pickup.OnItemCollected += Add;
         duct_interact.OnRecieveDuct += Add;
+        CabinetKeyInteract.OnRecieveKey += Add;
+        CabinetMatchboxInteract.OnRecieveBox += Add;
     }
     private void OnDisable() {
 
@@ -28,6 +30,8 @@ public class Inventory : MonoBehaviour
         Hedge_Interact.OnRecieveShear -= Add;
         Pickup.OnItemCollected -= Add;
         duct_interact.OnRecieveDuct -= Add;
+        CabinetKeyInteract.OnRecieveKey -= Add;
+        CabinetMatchboxInteract.OnRecieveBox -= Add;
     }
     public void Add(ItemData itemData) {
         if(itemDictionary.TryGetValue((itemData), out InventoryItem item)) {

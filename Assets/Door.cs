@@ -14,6 +14,7 @@ public class Door : Interactable
         base.Interact();
         
         if(activated) {
+            
         if(Input.GetKeyDown(key)){
                 if(activated2){
                 UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);

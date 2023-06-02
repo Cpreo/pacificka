@@ -44,6 +44,9 @@ public class Interactable : Collidable
                     invRequired = new InventoryItem(requiredItem);
                 }
             bool containsItem = false;
+            if(requiredItem == null){
+                containsItem = true;
+            }
             if(requiredItem != null ) {
             foreach(InventoryItem item in Inventory.inventory)
                 {
