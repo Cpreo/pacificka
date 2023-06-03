@@ -539,7 +539,7 @@ TextureImporter:
       name: foyer_table_0
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 153
         width: 16
         height: 16
@@ -560,7 +560,7 @@ TextureImporter:
       name: foyer_table_1
       rect:
         serializedVersion: 2
-        x: 81
+        x: 80
         y: 153
         width: 16
         height: 16
@@ -581,7 +581,7 @@ TextureImporter:
       name: foyer_table_2
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 137
         width: 16
         height: 16
@@ -602,7 +602,7 @@ TextureImporter:
       name: foyer_table_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 80
         y: 137
         width: 16
         height: 16
@@ -745,6 +745,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: foyer_stairs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febbee655b659984a80d24a1ccad71ed
+      internalID: 250188872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foyer_stairs_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b86dd89357502b4d9ec763dc8a4cda6
+      internalID: -1735270567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_window_full
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 235
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da883b0a2021b4d9e57e08a005e19f
+      internalID: 456749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -756,12 +819,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      completed_painting: -1148506883
+      foyer_table_3: 458675492
       foyer_cracked_floor_: 484364945
       drawer_0: 2143317510
       couch_1: -624858632
-      foyer_floor_1: 1317591626
       wall_0: -392515554
       white_window_01: -946795838
+      foyer_stairs_0: 250188872
       foyer_cracked_floor_1: 1892341048
       white_window_21: 1266343053
       foyer_painting_1: 1169067171
@@ -776,16 +841,17 @@ TextureImporter:
       candle_0: -1331995061
       foyer_table_0: 2133788194
       white_window_31: 1810807957
+      white_window_full: 456749784
       foyer_floor_0: -651653718
       foyer_floor_3: 1122390097
       foyer_cracked_floor_0: -1252602532
       mysterious_0: 865526021
+      foyer_floor_1: 1317591626
       foyer_table_2: -261547128
       foyer_painting_0: -246450620
-      foyer_table_3: 458675492
       couch_0: 661990848
       open_door: -707740950
-      completed_painting: -1148506883
+      foyer_stairs_1: -1735270567
       foyer_painting_3: -639533524
   spritePackingTag: 
   pSDRemoveMatte: 0

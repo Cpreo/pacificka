@@ -326,7 +326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e95a059ffaf76b418deaa099903543a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f84acae19a7ec2449aeca26593cd595, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   no_tape_crate: {fileID: 21300000, guid: fee8f02b9f29e4c43bdaf3b5ac43b896, type: 3}
-  tape_item: {fileID: 11400000, guid: 172d6572449cc3b43afa3b4e4aeb2a41, type: 2}
+  tape_item: {fileID: 11400000, guid: b74c6163533a6524d829b9b34ba61ffb, type: 2}
   duct_tape: {fileID: 0}
 --- !u!114 &856689041216237009
 MonoBehaviour:

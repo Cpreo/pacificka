@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1476845222, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a6ed1833401fc8459f41cf0b6ed7652, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sheared_hedge: {fileID: -1494937921, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
-  shear_item: {fileID: 11400000, guid: f2ca62dfbf5fb084794fc81dff7bde05, type: 2}
+  shear_item: {fileID: 11400000, guid: cc0dce40d9997ea4dbdf6cd2a741f73e, type: 2}
   shear: {fileID: 6382142017747720761}
 --- !u!114 &4747936683048413580
 MonoBehaviour:
