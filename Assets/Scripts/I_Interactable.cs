@@ -14,9 +14,11 @@ public class I_Interactable : Interactable
     void Awake(){
         foreach(InventoryItem item in Inventory.inventory){
                 {
+                
                     if(interact_item.displayName ==  item.itemData.displayName)
                     {
                        GetComponent<SpriteRenderer>().sprite = finImage;
+                       activated = true;
                     }
                 }
             }

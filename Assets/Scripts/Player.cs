@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private Vector2 moveDirection;
     public GameObject DialogueBox;
     public float moveSpeed = 0.5f;
+    public bool typing = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +45,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         ProcessInputs();
+        typing = DialogueBox.GetComponent<Dialogue>().typing;
         if(GameManager.instance.player ==  null) {
             GameManager.instance.player = this;
         }

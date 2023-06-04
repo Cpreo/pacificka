@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     public List<Sprite> weaponSprites;
     public List<int> weaponPrices;
     public List<int> xpTable;
+    public List<string> states;
 
     //References;
 

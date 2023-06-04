@@ -15,15 +15,27 @@ public class Fridge : Interactable
     public static event HandleNoteRecieved OnRecieveNote;
     public delegate void HandleNoteRecieved(ItemData itemData);
     bool initialMessage = false;
+    Player ourPlayer;
     // Update is called once per frame
     public ItemData Note;
     public ItemData rolling_data;
 
     void Awake(){
         canvas = GameObject.FindWithTag("Canvas");
+        
     }
     protected override void Interact() {
+        if(ourPlayer.typing){
+            return;
+        }
         if(Input.GetKeyDown(key)){
+            foreach(InventoryItem item in Inventory.inventory)
+                {
+                    if(rolling_data.displayName ==  item.itemData.displayName)
+                    {  
+                        activated2 = true;
+                    }
+                }
         if(activated2 == true) {
             DisplayText(accept_fridge);
         }
@@ -62,6 +74,9 @@ public class Fridge : Interactable
         }
     }
     protected override void Update() {
+        if(ourPlayer == null){
+        ourPlayer = GameManager.instance.player.GetComponent<Player>();
+        }
         if(displaying) {
         if(slideshow.GetComponent<Interact_Controller>().finished == true)
         {

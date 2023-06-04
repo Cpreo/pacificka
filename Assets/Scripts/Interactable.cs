@@ -13,6 +13,7 @@ public class Interactable : Collidable
     public bool turnOff = false;
     public KeyCode key = KeyCode.E;
     public Sprite activatedImage;
+    public string state;
     protected override void OnCollide(Collider2D coll)
     {
         if(coll.name == "Player"){
@@ -22,6 +23,10 @@ public class Interactable : Collidable
     protected override void Start() {
         soundEffect = GetComponent<AudioSource>();
         boxCollider = GetComponent<BoxCollider2D>();
+        if(GameManager.instance.states.Contains(state))
+        {
+            activated = true;
+        }
         GameObject holder = GameObject.FindWithTag("DialogueBox");
         Transform[] trs = holder.GetComponentsInChildren<Transform>(true);
          foreach(Transform t in trs){
@@ -69,7 +74,7 @@ public class Interactable : Collidable
                 GetComponent<SpriteRenderer>().sprite = activatedImage;
             }
             activated = true;
-            
+            GameManager.instance.states.Add(state);
             Debug.Log("Huzzah!");
             } else if (activated == true && turnOff){
                 activated = false;

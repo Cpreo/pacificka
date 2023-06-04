@@ -193,6 +193,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
 --- !u!61 &41837655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,6 +477,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
 --- !u!61 &232595938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36789,6 +36791,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: -1475517668, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
+  state: 
   interactImagePrefab: {fileID: 15517818206127340, guid: 4255047dda8f45f458cb71bd64f55f59, type: 3}
   canvas: {fileID: 0}
   finImage: {fileID: -1475517668, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
@@ -37037,6 +37040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueBox: {fileID: 1162776926}
   moveSpeed: 0.5
+  typing: 0
 --- !u!50 &656740671
 Rigidbody2D:
   serializedVersion: 4
@@ -37202,6 +37206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b51e460f544584ca1f3b849cf43226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: KitchenCandle
 --- !u!95 &680672900
 Animator:
   serializedVersion: 4
@@ -37336,6 +37341,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
   animator: {fileID: 680672900}
 --- !u!61 &680672903
 BoxCollider2D:
@@ -40384,6 +40390,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
   sceneName: Main1
 --- !u!1001 &1072017965
 PrefabInstance:
@@ -41539,6 +41546,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
 --- !u!61 &1505735430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42878,6 +42886,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
+  state: 
   emptyChest: {fileID: 1657391213, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
   chest_data: {fileID: 11400000, guid: bf55a2a764b7cac42a2cf9c87930ca7b, type: 2}
 --- !u!1 &2115329758
@@ -42928,6 +42937,7 @@ MonoBehaviour:
   weaponSprites: []
   weaponPrices: 
   xpTable: 
+  states: []
   player: {fileID: 656740670}
   floatingTextManager: {fileID: 1914286522}
   Inventory: []
