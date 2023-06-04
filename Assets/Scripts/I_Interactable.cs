@@ -16,7 +16,7 @@ public class I_Interactable : Interactable
   protected override void Interact() {
         
         if(!activated) {
-
+            
              if(Input.GetKeyDown(key) && displaying == false){
                 
              slideshow = Instantiate(interactImagePrefab);

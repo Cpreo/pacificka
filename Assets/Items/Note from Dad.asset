@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ab1399f6e9ed74d8ca93cda0cead98, type: 3}
+  m_Name: Note from Dad
+  m_EditorClassIdentifier: 
+  displayName: Note
+  inspectText: " It says: Rosie, I have left fish stew in the fridge for you. I know
+    you disagree with my decisions, but skipping meals to avoid me is only doing
+    you harm, my dear. Please, don\u2019t make me worry further about you. -Dad"
+  combinesWith: []
+  combinesInto: {fileID: 0}
+  combine: 0
+  inspect: 0
+  icon: {fileID: 1876353858, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
+  inspectImage: {fileID: 0}

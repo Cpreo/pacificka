@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ab1399f6e9ed74d8ca93cda0cead98, type: 3}
+  m_Name: Rolling Pin
+  m_EditorClassIdentifier: 
+  displayName: Rolling Pin
+  inspectText: " It\u2019s a large, heavy rolling pin"
+  combinesWith: []
+  combinesInto: {fileID: 0}
+  combine: 0
+  inspect: 0
+  icon: {fileID: -158797265, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
+  inspectImage: {fileID: 0}
