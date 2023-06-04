@@ -39986,7 +39986,7 @@ MonoBehaviour:
   state: Drawer1
   interactImagePrefab: {fileID: 1915962904340606169, guid: 6b6de53acbbfdf14c94684df8f9c4b5b, type: 3}
   canvas: {fileID: 0}
-  finImage: {fileID: 21300000, guid: efd9899ffb0f6254d84f8c3776ee2cef, type: 3}
+  finImage: {fileID: 21300000, guid: 82392bea308d2e64e96f16b7d5ac466d, type: 3}
   interact_item: {fileID: 11400000, guid: 3d6a1aced90f0394abe6c5d20dfae06e, type: 2}
 --- !u!1 &1509943368
 GameObject:
@@ -41629,15 +41629,14 @@ MonoBehaviour:
   boxCollider: {fileID: 1997858906}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: Fitting the painting into the lock, door opens. You beat the test level
-  denialText: '"The door swung shut behind me the moment I came in. It''s locked
-    fast. There seems to be a square shaped hole in it"'
+  FlavorText: 
+  denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
-  state: 
+  state: Nothing
 --- !u!61 &1997858906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41794,14 +41793,14 @@ MonoBehaviour:
   boxCollider: {fileID: 2030636200}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: 
-  denialText: The door swings open
+  FlavorText: The door swings open
+  denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
   activatedImage: {fileID: -707740950, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
-  state: 
+  state: Door1
   sceneName: Kitchen
 --- !u!61 &2030636200
 BoxCollider2D:

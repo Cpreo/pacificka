@@ -37206,7 +37206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b51e460f544584ca1f3b849cf43226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state1: Candle1
+  state1: Candle2
 --- !u!95 &680672900
 Animator:
   serializedVersion: 4
@@ -37341,7 +37341,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
-  state: 
+  state: Candle2
   animator: {fileID: 680672900}
 --- !u!61 &680672903
 BoxCollider2D:
@@ -37356,7 +37356,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.023903042}
+  m_Offset: {x: 0, y: -0.07047883}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -37367,7 +37367,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19975758, y: 0.38780612}
+  m_Size: {x: 0.19975758, y: 0.4809577}
   m_EdgeRadius: 0
 --- !u!212 &680672904
 SpriteRenderer:

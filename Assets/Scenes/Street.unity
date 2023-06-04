@@ -3643,7 +3643,7 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 21300000, guid: 66adbbbf99a75bf4aae6eab5752cd15a, type: 3}
-  state: 
+  state: Window
   sceneName: Main1
 --- !u!61 &1441217995
 BoxCollider2D:
@@ -36249,11 +36249,11 @@ MonoBehaviour:
   turnOff: 0
   key: 101
   activatedImage: {fileID: 0}
-  state: 
+  state: Hedge
   interactImagePrefab: {fileID: 6382142017043135421, guid: f2f7efac598c96f45b6a79b9b4365057, type: 3}
   canvas: {fileID: 782519089}
   finImage: {fileID: -1494937921, guid: cd973dc1e6e9a5a40b398007f84549c4, type: 3}
-  interact_item: {fileID: 0}
+  interact_item: {fileID: 11400000, guid: cc0dce40d9997ea4dbdf6cd2a741f73e, type: 2}
 --- !u!61 &2027063777
 BoxCollider2D:
   m_ObjectHideFlags: 0
