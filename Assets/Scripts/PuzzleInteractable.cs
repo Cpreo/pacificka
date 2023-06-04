@@ -17,9 +17,6 @@ public class PuzzleInteractable : Interactable
     }
     protected override void Interact()   
     {
-
-        
-
         if(Input.GetKeyDown(key)){
             if(activated == false) {
             InventoryItem invRequired = new InventoryItem(requiredItem);
@@ -55,6 +52,12 @@ public class PuzzleInteractable : Interactable
 
             }
 
+        }
+    }
+    protected override void Update(){
+        base.Update();
+        if(GameObject.Find("Global Light").GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity > 0.4f){
+            puzzleBeaten = true;
         }
     }
 }

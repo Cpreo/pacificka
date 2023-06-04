@@ -10,13 +10,22 @@ public class I_Interactable : Interactable
     GameObject slideshow;
     public Sprite finImage;
     bool displaying = false;
+    public ItemData interact_item;
     void Awake(){
+        foreach(InventoryItem item in Inventory.inventory){
+                {
+                    if(interact_item.displayName ==  item.itemData.displayName)
+                    {
+                       GetComponent<SpriteRenderer>().sprite = finImage;
+                    }
+                }
+            }
         canvas = GameObject.FindWithTag("Canvas");
     }
   protected override void Interact() {
         
         if(!activated) {
-            
+
              if(Input.GetKeyDown(key) && displaying == false){
                 
              slideshow = Instantiate(interactImagePrefab);

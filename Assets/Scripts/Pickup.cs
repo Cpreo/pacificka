@@ -15,4 +15,16 @@ public class Pickup : Collectable
         }
 
     }
+    protected override void Update() {
+        
+        foreach(InventoryItem item in Inventory.inventory){
+                {
+                    if(item_data.displayName ==  item.itemData.displayName)
+                    {
+                        Destroy(gameObject);
+                    }
+                }
+            }
+        base.Update();
+    }
 }

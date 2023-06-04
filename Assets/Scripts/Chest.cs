@@ -9,7 +9,17 @@ public class Chest : Interactable
     private bool collected;
     public static event HandleChestOpened OnChestCollected;
     public delegate void HandleChestOpened(ItemData itemData);
-   
+   protected override void Start(){
+    base.Start();
+    foreach(InventoryItem item in Inventory.inventory){
+                {
+                    if(chest_data.displayName ==  item.itemData.displayName)
+                    {
+                        Destroy(gameObject);
+                    }
+                }
+            }
+   }
     protected override void Interact() {
 
         if(!activated) {
