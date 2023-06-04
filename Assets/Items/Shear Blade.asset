@@ -17,9 +17,8 @@ MonoBehaviour:
     it will cut you.
   combinesWith:
   - {fileID: 11400000, guid: a4b86c9fd8b748b439d2f42586652508, type: 2}
-  - {fileID: 11400000, guid: 172d6572449cc3b43afa3b4e4aeb2a41, type: 2}
   combinesInto: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}
   combine: 1
   inspect: 1
-  icon: {fileID: 21300000, guid: cbe918495512f2748abad74a4206d3f6, type: 3}
+  icon: {fileID: -560230230, guid: dcb67ad951db6ff4893c3b4ac1a03f0e, type: 3}
   inspectImage: {fileID: 0}

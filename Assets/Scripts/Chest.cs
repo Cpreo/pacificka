@@ -27,7 +27,7 @@ public class Chest : Interactable
              if(Input.GetKeyDown(key)){
                 GetComponent<SpriteRenderer>().sprite = emptyChest;
                 if(chest_data !=  null) {
-                    GameManager.instance.ShowText("You recieved a " +chest_data.displayName + "!",25,Color.yellow,transform.position, Vector3.up *50,3f);
+                    GameManager.instance.ShowText("You recieved a " +chest_data.displayName + "!",25,Color.yellow,GameManager.instance.player.transform.position, Vector3.up *50,3f);
                     if(collected == false)
                     {
                     OnChestCollected?.Invoke(chest_data);

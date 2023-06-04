@@ -23,6 +23,7 @@ public class Inventory : MonoBehaviour
         CabinetKeyInteract.OnRecieveKey += Add;
         CabinetMatchboxInteract.OnRecieveBox += Add;
         Fridge.OnRecieveNote += Add;
+        Fridge_Interact.OnRecieveSoup += Add;
     }
     private void OnDisable() {
 
@@ -34,6 +35,7 @@ public class Inventory : MonoBehaviour
         CabinetKeyInteract.OnRecieveKey -= Add;
         CabinetMatchboxInteract.OnRecieveBox -= Add;
         Fridge.OnRecieveNote -= Add;
+        Fridge_Interact.OnRecieveSoup -= Add;
     }
     public void Add(ItemData itemData) {
         if(itemDictionary.TryGetValue((itemData), out InventoryItem item)) {

@@ -13,7 +13,7 @@ public class Interactable : Collidable
     public bool turnOff = false;
     public KeyCode key = KeyCode.E;
     public Sprite activatedImage;
-    public string state;
+    public string state = "None";
     protected override void OnCollide(Collider2D coll)
     {
         if(coll.name == "Player"){
