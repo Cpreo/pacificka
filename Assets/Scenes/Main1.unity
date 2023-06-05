@@ -36731,8 +36731,8 @@ MonoBehaviour:
     -  \u201CI know that what wanders these halls is not you, mother. Looking upon
     this picture, I can see it clearly. I miss you deeply. - Rosie. There is one
     more message."
-  denialText: The painting frame is empty, and it's too dark to see anything worthwile
-    in the frame.
+  denialText: It reads from the 1910s. The painting frame is empty, and it's too
+    dark to see anything worthwile in the frame.
   requiredItem: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -36932,7 +36932,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: The Couch looks fantastic! Wish I could sit on it.
+  FlavorText: A rancid sea -stained couch. There isn't much more here
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -37390,7 +37390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486423232}
   m_LocalRotation: {x: -0, y: -0, z: 0.027130041, w: 0.99963194}
-  m_LocalPosition: {x: -2.817, y: -0.527, z: 0}
+  m_LocalPosition: {x: -2.813, y: -0.603, z: 0}
   m_LocalScale: {x: -0.75565, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42009,7 +42009,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: The Couch looks fantastic! Wish I could sit on it.
+  FlavorText: Comfy, torn leather seat. If only you could sit on it.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -42335,7 +42335,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: The Couch looks fantastic! Wish I could sit on it.
+  FlavorText: A water-stained sofa. How the heck did this last so long?
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

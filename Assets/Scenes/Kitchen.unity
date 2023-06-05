@@ -186,7 +186,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1162776926}
-  FlavorText: The Couch looks fantastic! Wish I could sit on it.
+  FlavorText: A tan, tattered couch
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -470,9 +470,9 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1162776926}
-  FlavorText: '"You can finally get out of here with the finished portrait in hand"'
-  denialText: The Couch looks fantastic! Wish I could sit on it.
-  requiredItem: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
+  FlavorText: A weird couch.
+  denialText: 
+  requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
@@ -42492,7 +42492,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: It's black looking stove. What did you expect?
+  FlavorText: It's black looking stove. What did I expect?
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

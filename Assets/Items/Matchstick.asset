@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Matchstick
   m_EditorClassIdentifier: 
   displayName: Matchstick
-  inspectText: 
+  inspectText: ' Match stick! Now you just need a box to strike it against!'
   combinesWith:
   - {fileID: 11400000, guid: 6e05b9637b499704ba13cecb1b6f0a89, type: 2}
   combinesInto: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}

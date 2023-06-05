@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Matchbox
   m_EditorClassIdentifier: 
   displayName: Matchbox
-  inspectText: 
+  inspectText: 'Dated 1899. A matchbox! If only you had a stick to strike it against. '
   combinesWith:
   - {fileID: 11400000, guid: 7a530d4c495331d43984d08e50606747, type: 2}
   combinesInto: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}

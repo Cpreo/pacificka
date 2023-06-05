@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Shear Handle
   m_EditorClassIdentifier: 
   displayName: Shear Handle
-  inspectText: A rubber handle, with a blade sticking out.  Could use some tape
+  inspectText: The handles of some shears. You feel an almost magnetic pull toward
+    the other half.
   combinesWith:
   - {fileID: 11400000, guid: f2ca62dfbf5fb084794fc81dff7bde05, type: 2}
   combinesInto: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}

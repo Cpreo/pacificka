@@ -15,10 +15,7 @@ MonoBehaviour:
   displayName: Finished portrait
   inspectText: '"A waterlogged, dirty painting piece. It is ripped and looks about
     a quarter of the entire thing.'
-  combinesWith:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  combinesWith: []
   combinesInto: {fileID: 11400000}
   combine: 0
   inspect: 1
