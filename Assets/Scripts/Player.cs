@@ -13,10 +13,13 @@ public class Player : MonoBehaviour
     private Vector2 moveDirection;
     public GameObject DialogueBox;
     public float moveSpeed = 0.5f;
+    public Animator animator;
+    
     public bool typing = false;
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         GameObject holder = GameObject.FindWithTag("DialogueBox");
@@ -34,8 +37,11 @@ public class Player : MonoBehaviour
         Move();
     }
     void ProcessInputs() {
+        
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        animator.SetInteger("X",(int)moveX);
+        animator.SetInteger("Y",(int)moveY);
         moveDirection = new Vector2(moveX,moveY);
     }
     void Move() {
@@ -59,12 +65,12 @@ public class Player : MonoBehaviour
         // reset moveDelta
         moveDelta = new Vector3(x,y,0);
         // Swap sprite direction based on etc
-        if(moveDelta.x > 0) {
-            transform.localScale = Vector3.one;
-        }
-        else if (moveDelta.x < 0) {
-            transform.localScale = new Vector3(-1,1,1);
-        }
+        //if(moveDelta.x > 0) {
+        //    transform.localScale = Vector3.one;
+        //}
+        //else if (moveDelta.x < 0) {
+        //    transform.localScale = new Vector3(-1,1,1);
+        //}
        /*  hit= Physics2D.BoxCast(transform.position,boxCollider.size,0,new Vector2(0,moveDelta.y),Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
         // Make sure we can move in this direction, by casting a box there first
         if(hit.collider == null || hit.collider.isTrigger)
