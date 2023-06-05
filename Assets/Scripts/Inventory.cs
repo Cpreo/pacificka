@@ -24,6 +24,8 @@ public class Inventory : MonoBehaviour
         CabinetMatchboxInteract.OnRecieveBox += Add;
         Fridge.OnRecieveNote += Add;
         Fridge_Interact.OnRecieveSoup += Add;
+        Garden_Shed.OnRecieveShearBlade += Add;
+        Garden_Shed.OnRecieveShearHandle += Add;
     }
     private void OnDisable() {
 
@@ -36,6 +38,8 @@ public class Inventory : MonoBehaviour
         CabinetMatchboxInteract.OnRecieveBox -= Add;
         Fridge.OnRecieveNote -= Add;
         Fridge_Interact.OnRecieveSoup -= Add;
+        Garden_Shed.OnRecieveShearBlade -= Add;
+        Garden_Shed.OnRecieveShearHandle -= Add;
     }
     public void Add(ItemData itemData) {
         if(itemDictionary.TryGetValue((itemData), out InventoryItem item)) {

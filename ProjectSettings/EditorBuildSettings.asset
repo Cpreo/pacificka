@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: daf79078214cb1e46ad2851176e0bcd9
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 141171699d10e824f8298f55c20ae260
+  - enabled: 1
+    path: Assets/Scenes/Hallway.unity
+    guid: 7c2db097a9aa57a4e8408467fc1dff8e
   m_configObjects: {}

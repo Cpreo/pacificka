@@ -161,7 +161,7 @@ TextureImporter:
       name: player_up_2
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 768
         width: 32
         height: 52
@@ -182,7 +182,7 @@ TextureImporter:
       name: player_up_3
       rect:
         serializedVersion: 2
-        x: 209
+        x: 208
         y: 768
         width: 32
         height: 52
@@ -203,7 +203,7 @@ TextureImporter:
       name: player_up_4
       rect:
         serializedVersion: 2
-        x: 271
+        x: 272
         y: 768
         width: 32
         height: 52
@@ -245,7 +245,7 @@ TextureImporter:
       name: player_up_6
       rect:
         serializedVersion: 2
-        x: 401
+        x: 400
         y: 768
         width: 32
         height: 52
@@ -266,7 +266,7 @@ TextureImporter:
       name: player_7
       rect:
         serializedVersion: 2
-        x: 465
+        x: 464
         y: 768
         width: 32
         height: 52
@@ -497,7 +497,7 @@ TextureImporter:
       name: player_down_8
       rect:
         serializedVersion: 2
-        x: 526
+        x: 528
         y: 640
         width: 32
         height: 52
@@ -539,7 +539,7 @@ TextureImporter:
       name: player_down_6
       rect:
         serializedVersion: 2
-        x: 401
+        x: 400
         y: 640
         width: 32
         height: 52
@@ -560,7 +560,7 @@ TextureImporter:
       name: player_down_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 640
         width: 32
         height: 52
@@ -602,7 +602,7 @@ TextureImporter:
       name: player_down_2
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 640
         width: 32
         height: 52
@@ -623,7 +623,7 @@ TextureImporter:
       name: player_down_3
       rect:
         serializedVersion: 2
-        x: 209
+        x: 208
         y: 640
         width: 29
         height: 52
@@ -665,7 +665,7 @@ TextureImporter:
       name: player_down_5
       rect:
         serializedVersion: 2
-        x: 335
+        x: 336
         y: 640
         width: 32
         height: 52
