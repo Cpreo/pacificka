@@ -9,7 +9,7 @@ public class Minimenu : MonoBehaviour
     // Start is called before the first frame update
     Button combine;
     Button inspect;
-    public AudioSource soundEffect;
+
     public GameObject DialogueBox;
     public InventorySlot selected;
     protected virtual void DisplayText(string selectedText){
@@ -91,7 +91,7 @@ public class Minimenu : MonoBehaviour
             GameObject InventoryObject = GameObject.FindGameObjectWithTag("Inventory");
             Inventory inv = InventoryObject.GetComponent<Inventory>();
             inv.Add(ouritem.combinesInto);
-            soundEffect.Play();
+            
             foreach(ItemData item in combineList) {
                 inv.Remove(item);
                 
