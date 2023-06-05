@@ -3,7 +3,7 @@ guid: 6102af492906ad549b85feb8a63a3bc1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -796,7 +797,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -804,6 +805,27 @@ TextureImporter:
       bones: []
       spriteID: f0da883b0a2021b4d9e57e08a005e19f
       internalID: 456749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halfdrawer_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 205
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3778e717ee764d429b0911e80f40a8a
+      internalID: 872638127
       vertices: []
       indices: 
       edges: []
@@ -819,40 +841,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      candle_0: -1331995061
       completed_painting: -1148506883
-      foyer_table_3: 458675492
-      foyer_cracked_floor_: 484364945
-      drawer_0: 2143317510
+      couch_0: 661990848
       couch_1: -624858632
+      drawer_0: 2143317510
+      drawer_1: -307700984
+      foyer_chest: -1483000759
+      foyer_clock: 1161364155
+      foyer_cracked_floor_: 484364945
+      foyer_cracked_floor_0: -1252602532
+      foyer_cracked_floor_1: 1892341048
+      foyer_cracked_floor_2: -59579957
+      foyer_floor_0: -651653718
+      foyer_floor_1: 1317591626
+      foyer_floor_2: 509928164
+      foyer_floor_3: 1122390097
+      foyer_painting_0: -246450620
+      foyer_painting_1: 1169067171
+      foyer_painting_2: -1251793978
+      foyer_painting_3: -639533524
+      foyer_stairs_0: 250188872
+      foyer_stairs_1: -1735270567
+      foyer_table_0: 2133788194
+      foyer_table_1: 2133788194
+      foyer_table_2: -261547128
+      foyer_table_3: 458675492
+      halfdrawer_0: 872638127
+      mysterious_0: 865526021
+      open_door: -707740950
       wall_0: -392515554
       white_window_01: -946795838
-      foyer_stairs_0: 250188872
-      foyer_cracked_floor_1: 1892341048
-      white_window_21: 1266343053
-      foyer_painting_1: 1169067171
       white_window_11: -1953709290
-      drawer_1: -307700984
-      foyer_table_1: 2133788194
-      foyer_chest: -1483000759
-      foyer_cracked_floor_2: -59579957
-      foyer_painting_2: -1251793978
-      foyer_clock: 1161364155
-      foyer_floor_2: 509928164
-      candle_0: -1331995061
-      foyer_table_0: 2133788194
+      white_window_21: 1266343053
       white_window_31: 1810807957
       white_window_full: 456749784
-      foyer_floor_0: -651653718
-      foyer_floor_3: 1122390097
-      foyer_cracked_floor_0: -1252602532
-      mysterious_0: 865526021
-      foyer_floor_1: 1317591626
-      foyer_table_2: -261547128
-      foyer_painting_0: -246450620
-      couch_0: 661990848
-      open_door: -707740950
-      foyer_stairs_1: -1735270567
-      foyer_painting_3: -639533524
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
