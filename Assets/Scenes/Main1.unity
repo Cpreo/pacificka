@@ -35594,6 +35594,26 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -9, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 16, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -35609,6 +35629,26 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -9, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -35714,16 +35754,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -10, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -9, y: 2, z: 0}
     second:
       serializedVersion: 2
@@ -35745,26 +35775,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -7, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -4, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 2
@@ -35875,6 +35885,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -3, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 2
@@ -36164,6 +36184,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -1, y: 4, z: 0}
     second:
       serializedVersion: 2
@@ -36376,25 +36406,37 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c7f93ca346233034eb40a18faa624849, type: 2}
   - m_RefCount: 20
     m_Data: {fileID: 11400000, guid: b527d1bdfd712cb46987d582169d35ed, type: 2}
-  - m_RefCount: 127
+  - m_RefCount: 126
     m_Data: {fileID: 11400000, guid: 9626242430b9aa748aeda5afb5f6f169, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 07225940bcda58343a7f8a5012167f37, type: 2}
-  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 0ce7620a19d65c74c9be865ca989daa1, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: e1f0735022c3b90458befbd2a778a3f6, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 2
     m_Data: {fileID: -2078521977, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
   - m_RefCount: 20
     m_Data: {fileID: -392515554, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
-  - m_RefCount: 127
+  - m_RefCount: 126
     m_Data: {fileID: -180011738, guid: 7d67a545b43970e4685eb15364551b58, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 2133788194, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -261547128, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 458675492, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 149
+  - m_RefCount: 152
     m_Data:
       e00: 1
       e01: 0
@@ -36413,7 +36455,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 149
+  - m_RefCount: 152
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -36687,7 +36729,8 @@ MonoBehaviour:
   FlavorText: "ith all the pieces together, I can see it\u2019s a portrait of a family.
     It\u2019s a man, his wife, and his daughter. There\u2019s a note on the back
     -  \u201CI know that what wanders these halls is not you, mother. Looking upon
-    this picture, I can see it clearly. I miss you deeply. - Rosie"
+    this picture, I can see it clearly. I miss you deeply. - Rosie. There is one
+    more message."
   denialText: The painting frame is empty, and it's too dark to see anything worthwile
     in the frame.
   requiredItem: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
@@ -38540,7 +38583,6 @@ MonoBehaviour:
   item: Portrait Piece 4
   soundEffect: {fileID: 0}
   item_data: {fileID: 11400000, guid: 031c097270c54ad45ad062af63361fad, type: 2}
-  combine_data: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
 --- !u!1 &887741473
 GameObject:
   m_ObjectHideFlags: 0
@@ -41475,7 +41517,6 @@ MonoBehaviour:
   item: Portrait Piece 1
   soundEffect: {fileID: 0}
   item_data: {fileID: 11400000, guid: ed24153800aeca0448e23c2cb7580a31, type: 2}
-  combine_data: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
 --- !u!1 &1989509788
 GameObject:
   m_ObjectHideFlags: 0

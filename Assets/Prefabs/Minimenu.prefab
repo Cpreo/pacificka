@@ -348,6 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db71d75b95a1784d8f02694cc96a512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
   DialogueBox: {fileID: 0}
   selected: {fileID: 0}
 --- !u!1 &3551084799031017978

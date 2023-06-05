@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Note from Dad
   m_EditorClassIdentifier: 
   displayName: Note
-  inspectText: " It says: Rosie, I have left fish stew in the fridge for you. I know
-    you disagree with my decisions, but skipping meals to avoid me is only doing
-    you harm, my dear. Please, don\u2019t make me worry further about you. -Dad"
+  inspectText: 'There is a second note on the back. It says : One must combine the
+    keys of the soul and the sea for the final room'
   combinesWith: []
   combinesInto: {fileID: 0}
   combine: 0

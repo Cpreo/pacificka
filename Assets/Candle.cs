@@ -20,7 +20,7 @@ public class Candle : MonoBehaviour
         if(active && sceneLight.intensity < 0.5f){
             sceneLight.intensity += 0.02f * Time.deltaTime;
         }
-        if(sceneLight.intensity == 0.5f && !GameManager.instance.states.Contains(state1)){
+        if(sceneLight.intensity >= 0.5f && !GameManager.instance.states.Contains(state1)){
             GameManager.instance.states.Add(state1);
         }
         if(GameManager.instance.states.Contains(state1)){
