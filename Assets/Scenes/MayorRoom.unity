@@ -524,7 +524,7 @@ MonoBehaviour:
   activated: 0
   DialogueBox: {fileID: 0}
   FlavorText: Even with the firelight, the room feels cold and empty.
-  denialText: It's dark in here, I need something to light this
+  denialText: It's awful dark- you need to a light to see anything.
   requiredItem: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -2107,8 +2107,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: "There\u2019s a magnifying glass inside this drawer. I wonder what
-    he needed it for."
+  FlavorText: You find a magnifying glass hidden underneath a panel in the drawer.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -2311,10 +2310,10 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: Thanks to the magnifying glass, I can finally read some of this stuff! 
-    END OF GAME
-  denialText: "A diary! This must be where the Mayor keeps all his secrets...but
-    the writing is so small it\u2019s basically illegible."
+  FlavorText: 'With the maginifying glass, you finally get a glimpse of the horrible
+    secrets inside. '
+  denialText: "You spot a diary. It has the Mayor's sigil on top, but the writing
+    is so small it\u2019s nearly illegible."
   requiredItem: {fileID: 11400000, guid: 0d3297045038e114986452e4a2019512, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -2513,13 +2512,12 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: " I don\u2019t really wanna touch it, but it looks like the Mayor\u2019s
-    locket goes with the one on the body.... With the lockets together, I can see
-    the full picture of a young couple... but that means the other locket belongs
-    to...Evgenia.   This doesn\u2019t make any sense! Evgenia died years before the
-    Mayor and Rose...."
-  denialText: "Oh my god, is that a body? What is it still doing here? There\u2019s
-    some kind of mangled chain on it\u2019s chest."
+  FlavorText: You combine the Mayor's locket with the one on the body and see that
+    the woman in the red dress stands next to the mayor. An engraving on the back
+    reads "Evgenia and David Clark".
+  denialText: You see a husk of a woman on the bed. The eye sockets are empty, yet
+    it seems like something still lurks inside...there's a mangled locket on its
+    chest.
   requiredItem: {fileID: 11400000, guid: 524bb3b35a6998945852b76ec68c6e0e, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -3521,8 +3519,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: " A half-heart shaped locket...there\u2019s a picture of a woman in
-    a red dress inside... she looks familiar."
+  FlavorText: " A half-heart shaped locket...there\u2019s a picture of a familiar-looking
+    woman in a red dress."
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

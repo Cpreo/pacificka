@@ -306,8 +306,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: "Oh god, there\u2019s something in the stew... it\u2019s a...key? It\u2019s
-    so...pink"
+  FlavorText: "There\u2019s something in the stew! It\u2019s a...key? I wonder what
+    this unlocks."
   denialText: " It\u2019s an empty hole full of fish bones. Must\u2019ve been a pond
     once."
   requiredItem: {fileID: 11400000, guid: 8fd3e07004055c74f8eee450eb0b1254, type: 2}

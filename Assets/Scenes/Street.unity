@@ -629,8 +629,9 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: My car broke down, I'm in the middle of nowhere, what a great start
-    to the night
+  FlavorText: It's been two weeks since you first started investigating the mysterious
+    reapparance of Pacificka. There's only one house left to explore- the Mayor's
+    Manor.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -3150,7 +3151,8 @@ MonoBehaviour:
   boxCollider: {fileID: 974492333}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: The crates smell with the stench of the tide
+  FlavorText: Your nose fills with the scent of salt and wet wood... the tide must
+    have just subsided.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -3777,9 +3779,10 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: You smash through the window with your powerful slingshot! It seems
-    like you can squeeze through
-  denialText: This seems to be the only way in. The glass seems weak and fragile
+  FlavorText: ash through the window with your powerful slingshot! It seems like
+    you can squeeze through
+  denialText: The window seems to be the only way in. If only you had something to
+    break it with.
   requiredItem: {fileID: 11400000, guid: 519e886368d2de14da060a7c7127785f, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -36384,7 +36387,7 @@ MonoBehaviour:
   boxCollider: {fileID: 2027063777}
   activated: 0
   DialogueBox: {fileID: 509815116}
-  FlavorText: Looks like something is in there.
+  FlavorText: You can see something poking out of the hedge.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -38100,7 +38103,8 @@ MonoBehaviour:
   boxCollider: {fileID: 2108748987}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: A town appearing in the middle of nowhere, something has to be up
+  FlavorText: The Mayor's Manor is at the top of the street, above all the other
+    homes.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
