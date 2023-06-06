@@ -4200,7 +4200,7 @@ MonoBehaviour:
   key: 101
   activatedImage: {fileID: -707740950, guid: 6102af492906ad549b85feb8a63a3bc1, type: 3}
   state: FinalDoor
-  sceneName: Mayor's Room
+  sceneName: MayorRoom
 --- !u!61 &1274736729
 BoxCollider2D:
   m_ObjectHideFlags: 0

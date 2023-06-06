@@ -36888,8 +36888,11 @@ MonoBehaviour:
   denialText: The painting frame is empty, and it's too dark to see anything worthwile
     in the frame.
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
   puzzleBeaten: 0
   finishedPortrait: {fileID: 21300000, guid: 39673b8153788cb4ca9099a4918a4165, type: 3}
 --- !u!114 &356021783
@@ -37806,6 +37809,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 881173250}
   item: 
+  soundEffect: {fileID: 0}
   portraitData: {fileID: 11400000, guid: 031c097270c54ad45ad062af63361fad, type: 2}
 --- !u!61 &881173250 stripped
 BoxCollider2D:
@@ -37992,7 +37996,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1377630737}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -38251,6 +38255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueBox: {fileID: 1634810571}
   moveSpeed: 0.6
+  animator: {fileID: 0}
+  typing: 0
 --- !u!50 &1120237118
 Rigidbody2D:
   serializedVersion: 4
@@ -38625,6 +38631,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1766189153740142601, guid: 439c501fc4329ce42b7e8f9d71ae8938, type: 3}
   m_PrefabInstance: {fileID: 1316526770}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1338825919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338825920}
+  m_Layer: 5
+  m_Name: Holder
+  m_TagString: DialogueBox
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1338825920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338825919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 365179287}
+  m_Father: {fileID: 1377630737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1377630733
 GameObject:
   m_ObjectHideFlags: 0
@@ -38718,8 +38761,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1338825920}
   - {fileID: 1014860230}
-  - {fileID: 365179287}
   - {fileID: 19135098}
   - {fileID: 1202014590}
   - {fileID: 1673773782}
@@ -38846,6 +38889,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 0}
   item: 
+  soundEffect: {fileID: 0}
   portraitData: {fileID: 11400000, guid: bf55a2a764b7cac42a2cf9c87930ca7b, type: 2}
 --- !u!1 &1558785486
 GameObject:
@@ -39223,8 +39267,11 @@ MonoBehaviour:
     manor
   denialText: crates stack high and surround you.  You could use a light
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
 --- !u!61 &1813561141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39467,6 +39514,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 1979786624}
   item: asdasd
+  soundEffect: {fileID: 0}
   portraitData: {fileID: 11400000, guid: ed24153800aeca0448e23c2cb7580a31, type: 2}
 --- !u!61 &1979786624 stripped
 BoxCollider2D:
@@ -39506,6 +39554,7 @@ MonoBehaviour:
   weaponSprites: []
   weaponPrices: 
   xpTable: 
+  states: []
   player: {fileID: 1120237117}
   floatingTextManager: {fileID: 1014860231}
   Inventory: []
@@ -39654,8 +39703,11 @@ MonoBehaviour:
   denialText: '"The door swung shut behind me the moment I came in. It''s locked
     fast. There seems to be a square shaped hole in it"'
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
 --- !u!61 &1997858906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39816,8 +39868,11 @@ MonoBehaviour:
   denialText: '" All this to find a dead woman?  Is it just me, or is the air getting
     wetter? '
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
 --- !u!61 &2008109328
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39963,8 +40018,11 @@ MonoBehaviour:
   denialText: '"The crates stink with the salty smell of the tide. Something resembling
     fingernail scratches can be seen on them.'
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
 --- !u!61 &2061788600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40095,8 +40153,11 @@ MonoBehaviour:
   denialText: The winding nature of the manor is confusing. Is this worth the scoop?
     I barely have any money left.
   requiredItem: {fileID: 0}
+  soundEffect: {fileID: 0}
   turnOff: 0
   key: 101
+  activatedImage: {fileID: 0}
+  state: None
 --- !u!61 &2100382296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40291,7 +40352,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.31
+  m_Intensity: 0.16
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000dfde1273f7755bd1adf25eb6
@@ -40469,13 +40530,14 @@ MonoBehaviour:
     maxNormalAngle: 0
   boxCollider: {fileID: 0}
   item: 
+  soundEffect: {fileID: 0}
   portraitData: {fileID: 11400000, guid: 973ac776987895c4a8fdb4fdeea8271a, type: 2}
 --- !u!1001 &5949860800109274548
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1377630737}
+    m_TransformParent: {fileID: 1338825920}
     m_Modifications:
     - target: {fileID: 2718693847725867337, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_Name
@@ -40484,6 +40546,10 @@ PrefabInstance:
     - target: {fileID: 2718693847725867337, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718693847725867337, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
+      propertyPath: m_TagString
+      value: DialogueBox
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_Pivot.x
@@ -40495,7 +40561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -40515,11 +40581,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -170
+      value: 1169.9999
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -792.27
+      value: 187.72998
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_LocalScale.x
@@ -40567,7 +40633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -284.13504
+      value: -284.13498
       objectReference: {fileID: 0}
     - target: {fileID: 5949860799753016355, guid: 544cadbd233e99943a15ffc39847c46b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

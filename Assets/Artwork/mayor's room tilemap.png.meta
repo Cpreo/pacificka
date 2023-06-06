@@ -3,7 +3,7 @@ guid: 55b2720ccdbdd564080ffdc1f1686b55
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,14 +63,13 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,6 +90,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -451,22 +462,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      shelves_1: 2113927805
       bed_0: -1614761310
       boardedwindow_0: 1326744560
-      cabinet_0: -780293329
-      cabinet_1: -1530881632
-      chair_0: -1708889493
-      mayor's room tilemap_0: -527416785
-      mayor's room tilemap_1: -1585725809
-      mayor's room tilemap_2: -662555395
       mayor's room tilemap_3: -1982478286
       mayor's room tilemap_4: 1480003927
-      mayorwindow_0: -1441489713
-      newspapers: 257403375
-      portrait: 479237979
-      shelves_0: -2032744755
-      shelves_1: 2113927805
+      cabinet_0: -780293329
+      cabinet_1: -1530881632
+      mayor's room tilemap_1: -1585725809
       table_0: 1333335001
+      chair_0: -1708889493
+      portrait: 479237979
+      mayorwindow_0: -1441489713
+      mayor's room tilemap_0: -527416785
+      newspapers: 257403375
+      shelves_0: -2032744755
+      mayor's room tilemap_2: -662555395
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

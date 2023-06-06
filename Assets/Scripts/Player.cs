@@ -19,7 +19,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
+        //animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         GameObject holder = GameObject.FindWithTag("DialogueBox");
@@ -40,8 +41,10 @@ public class Player : MonoBehaviour
         
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        if(animator != null){
         animator.SetInteger("X",(int)moveX);
         animator.SetInteger("Y",(int)moveY);
+        }
         moveDirection = new Vector2(moveX,moveY);
     }
     void Move() {

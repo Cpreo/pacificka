@@ -9,7 +9,8 @@ public class Chest : Interactable
     private bool collected;
     public static event HandleChestOpened OnChestCollected;
     public delegate void HandleChestOpened(ItemData itemData);
-   protected override void Start(){
+    bool contains = false;
+    protected override void Start(){
     base.Start();
     foreach(InventoryItem item in Inventory.inventory){
                 {
@@ -25,8 +26,25 @@ public class Chest : Interactable
         if(!activated) {
 
              if(Input.GetKeyDown(key)){
+                if(requiredItem != null) {
+
+                    foreach(InventoryItem item in Inventory.inventory)
+                    {
+                    if(requiredItem.displayName ==  item.itemData.displayName)
+                    {
+                        contains = true;
+
+                    }
+                }
+            
+                }
+                if(!contains) {
+                    base.Interact();
+                    return;
+                }
                 GetComponent<SpriteRenderer>().sprite = emptyChest;
-                if(chest_data !=  null) {
+                if(chest_data !=  null ) {
+                    
                     GameManager.instance.ShowText("You recieved a " +chest_data.displayName + "!",25,Color.yellow,GameManager.instance.player.transform.position, Vector3.up *50,3f);
                     if(collected == false)
                     {
@@ -39,7 +57,7 @@ public class Chest : Interactable
              }
             
         }
-        base.Interact();
+        
 
     }
 

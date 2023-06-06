@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering;
 public class Torch : Interactable
 {
     public Animator animator;
@@ -33,5 +33,10 @@ public class Torch : Interactable
         }
         
         myLight.enabled = activated;
+    }
+    protected override void Update() {
+        if(activated == true) {
+            animator.SetBool("Activated", true);
+        }
     }
 }

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Locket
   m_EditorClassIdentifier: 
   displayName: locket
-  inspectText: 
+  inspectText: A locket! mystery surround it.
   combinesWith: []
   combinesInto: {fileID: 0}
   combine: 0
   inspect: 0
-  icon: {fileID: 0}
+  icon: {fileID: -662555395, guid: 55b2720ccdbdd564080ffdc1f1686b55, type: 3}
   inspectImage: {fileID: 0}
