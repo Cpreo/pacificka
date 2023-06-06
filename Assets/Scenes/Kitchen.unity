@@ -186,7 +186,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1162776926}
-  FlavorText: A tan, tattered couch
+  FlavorText: 'A tan, tattered couch. '
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -470,7 +470,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1162776926}
-  FlavorText: A weird couch.
+  FlavorText: You could imagine a family, gathering together on these couches, after
+    a hearty meal...
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -36968,8 +36969,9 @@ MonoBehaviour:
   canvas: {fileID: 0}
   finImage: {fileID: -1475517668, guid: 968be81edf62efa4faf7a2daf1cc2c78, type: 3}
   denial_fridge: The handle is missing - I need something to pull the door open.
-  accept_fridge: "The rolling pin fits into the missing handle hole perfectly- Inside
-    the fridge, there\u2019s a bowl full of something funky-smelling..."
+  accept_fridge: 'The rolling pin fits into the missing handle hole well enough.
+    You pull it open, and are hit by a distinctly funky and foul odor from a bowl
+    of fish stew. '
   Note: {fileID: 11400000, guid: 21722ea3b0b92cb449011ed32af572b5, type: 2}
   rolling_data: {fileID: 11400000, guid: 0e518bd61f396014f84ff3df645d9254, type: 2}
 --- !u!61 &564687699
@@ -37356,8 +37358,8 @@ MonoBehaviour:
   boxCollider: {fileID: 680672903}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: 
-  denialText: It's dark in here, I need something to light this
+  FlavorText: With the fire you can finally see the kitchen in all its grimy glory.
+  denialText: You can't see much in the darkness.
   requiredItem: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -42342,7 +42344,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: It's black looking stove. What did I expect?
+  FlavorText: An old black stove.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

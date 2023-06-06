@@ -306,8 +306,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: "There\u2019s something in the stew! It\u2019s a...key? I wonder what
-    this unlocks."
+  FlavorText: 'You see something glinting in the pool of fish stew. You reach into
+    the glop and pull out a strange key. '
   denialText: " It\u2019s an empty hole full of fish bones. Must\u2019ve been a pond
     once."
   requiredItem: {fileID: 11400000, guid: 8fd3e07004055c74f8eee450eb0b1254, type: 2}
@@ -37269,8 +37269,8 @@ MonoBehaviour:
   boxCollider: {fileID: 680672903}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: 
-  denialText: It's dark in here, I need something to light this
+  FlavorText: 'The lit candle illuminates the surrounding foliage. '
+  denialText: An unlit candle. With a match, you might be able to see more clearly.
   requiredItem: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -38662,7 +38662,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: The shed ominously looms in the corner of the garden.
+  FlavorText: 'The shed creaks and groans with the wind. You wonder if the Clark''s
+    kept tools inside. '
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

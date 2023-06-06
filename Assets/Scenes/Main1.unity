@@ -36577,13 +36577,13 @@ MonoBehaviour:
   boxCollider: {fileID: 356021779}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: "ith all the pieces together, I can see it\u2019s a portrait of a family.
+  FlavorText: "With all the pieces together, you see it\u2019s a portrait of a family.
     It\u2019s a man, his wife, and his daughter. There\u2019s a note on the back
-    -  \u201CI know that what wanders these halls is not you, mother. Looking upon
-    this picture, I can see it clearly. I miss you deeply. - Rosie. There is one
-    more message."
-  denialText: It reads from the 1910s. The painting frame is empty, and it's too
-    dark to see anything worthwile in the frame.
+    -  \u201CI know that what wanders these halls is not you, mother. Have mercy
+    on father for what he has done to your memory. We both just miss you deeply-
+    Rosie\" "
+  denialText: An old-fashioned painting frame. It's empty, and too dark to see anything
+    worthwile if it was full.
   requiredItem: {fileID: 11400000, guid: 2c7b29b77c9d82044903d62065add075, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -36783,7 +36783,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: A rancid sea -stained couch. There isn't much more here
+  FlavorText: Another rancid sea -stained couch. There isn't much more here
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -37147,7 +37147,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: The Couch looks fantastic! Wish I could sit on it.
+  FlavorText: Scratches and torn fabric cover the couch frame. You think you might
+    spot a blood splatter.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -39222,10 +39223,7 @@ MonoBehaviour:
   activated: 0
   DialogueBox: {fileID: 1634810571}
   FlavorText: 
-  denialText: "You\u2019d think after 100 years underwater, this place would look
-    worse. It\u2019s been two weeks since I started investigating the mysterious
-    reappearance of this ghost town, and I haven\u2019t got much to show for it.
-    This is my last shot to get the scoop. "
+  denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -39354,7 +39352,7 @@ MonoBehaviour:
   boxCollider: {fileID: 1309583838}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: The door swings Open
+  FlavorText: The door swings open
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -40657,7 +40655,7 @@ MonoBehaviour:
   activated: 0
   DialogueBox: {fileID: 0}
   FlavorText: 
-  denialText: It's dark in here, I need something to light this
+  denialText: 'You can barely see five feet in front of you in this darkness. '
   requiredItem: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -40917,8 +40915,8 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: You cut through the vines
-  denialText: The vines block the way
+  FlavorText: You slice your way through through the seaweed.
+  denialText: The thick seaweed block the way
   requiredItem: {fileID: 11400000, guid: ff0a7f6b055094c42b54dc9c1566058b, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -41040,7 +41038,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: A clock that ticks and tock
+  FlavorText: A clock that ticks and tocks.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -42185,7 +42183,7 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   activated: 0
   DialogueBox: {fileID: 1634810571}
-  FlavorText: A water-stained sofa. How the heck did this last so long?
+  FlavorText: A water-soaked sofa. Smells like mildew.
   denialText: 
   requiredItem: {fileID: 0}
   soundEffect: {fileID: 0}

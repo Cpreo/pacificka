@@ -4192,8 +4192,9 @@ MonoBehaviour:
   boxCollider: {fileID: 1274736729}
   activated: 0
   DialogueBox: {fileID: 0}
-  FlavorText: The door swings Open
-  denialText: The door is locked. It says, bound by soul and sea.
+  FlavorText: The door swings open.
+  denialText: You try to open the door but it appears to be locked. There's a worn
+    off-inscription... you can make out the phrase 'bound by soul and sea'.
   requiredItem: {fileID: 11400000, guid: bba34cff78a481f4b9ba0c7f1e8d5837, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
@@ -40978,7 +40979,7 @@ MonoBehaviour:
   activated: 0
   DialogueBox: {fileID: 0}
   FlavorText: 
-  denialText: It's dark in here, I need something to light this
+  denialText: You can hardly see in the darkness.
   requiredItem: {fileID: 11400000, guid: c5d17afc68a783241b7086fac029a554, type: 2}
   soundEffect: {fileID: 0}
   turnOff: 0
