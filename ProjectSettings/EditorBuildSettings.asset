@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hallway.unity
     guid: 7c2db097a9aa57a4e8408467fc1dff8e
+  - enabled: 1
+    path: Assets/Scenes/MayorRoom.unity
+    guid: 15149448724b697429dfeb7c0f62b341
   m_configObjects: {}

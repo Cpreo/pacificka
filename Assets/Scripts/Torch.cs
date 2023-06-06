@@ -20,7 +20,9 @@ public class Torch : Interactable
     base.Start();
     }
     protected override void Interact(){
+        Debug.Log("Test");
         base.Interact();
+        
         if(activated == true) {
             animator.SetBool("Activated", true);
             if(soundEffect != null)
@@ -38,5 +40,6 @@ public class Torch : Interactable
         if(activated == true) {
             animator.SetBool("Activated", true);
         }
+        base.Update();
     }
 }

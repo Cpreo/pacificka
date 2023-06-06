@@ -38,7 +38,6 @@ public class Interactable : Collidable
     }
     protected virtual void Interact()   
     {
-
         if(!activated)
             GameManager.instance.ShowText("" + key,25,Color.red,transform.position, Vector3.zero,.01f);
 
@@ -62,6 +61,7 @@ public class Interactable : Collidable
                 }
             }
             if(!containsItem){
+                Debug.Log("No item");
                 DisplayText(denialText);
                 return;
             }

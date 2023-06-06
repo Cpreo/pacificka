@@ -7,9 +7,10 @@ public class Chest : Interactable
     public Sprite emptyChest;
     public ItemData chest_data;
     private bool collected;
+    
     public static event HandleChestOpened OnChestCollected;
     public delegate void HandleChestOpened(ItemData itemData);
-    bool contains = false;
+    
     protected override void Start(){
     base.Start();
     foreach(InventoryItem item in Inventory.inventory){
@@ -22,26 +23,31 @@ public class Chest : Interactable
             }
    }
     protected override void Interact() {
-
+        if(Input.GetKeyDown(key)){
         if(!activated) {
-
-             if(Input.GetKeyDown(key)){
-                if(requiredItem != null) {
+            bool contain1 = false;
+            if(requiredItem != null) {
 
                     foreach(InventoryItem item in Inventory.inventory)
                     {
                     if(requiredItem.displayName ==  item.itemData.displayName)
                     {
-                        contains = true;
+                        contain1 = true;
 
                     }
                 }
+                Debug.Log(requiredItem);
+                
             
-                }
-                if(!contains) {
+            }
+            if(requiredItem == null) {
+                    contain1 = true;
+            }
+            if(!contain1) {
                     base.Interact();
                     return;
-                }
+            }
+                if(contain1){
                 GetComponent<SpriteRenderer>().sprite = emptyChest;
                 if(chest_data !=  null ) {
                     
@@ -53,11 +59,15 @@ public class Chest : Interactable
                     collected = true;
                     
                 }
+                }
                 
              }
+             
             
         }
         
+        
+        base.Interact();
 
     }
 

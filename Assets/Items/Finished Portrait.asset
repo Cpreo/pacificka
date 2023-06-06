@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Finished Portrait
   m_EditorClassIdentifier: 
   displayName: Finished portrait
-  inspectText: '"A waterlogged, dirty painting piece. It is ripped and looks about
-    a quarter of the entire thing.'
+  inspectText: 'The Final portrait! It says: The final door requires the key of soul
+    and sea'
   combinesWith: []
   combinesInto: {fileID: 11400000}
   combine: 0
